@@ -27,5 +27,8 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += $(BOOT_KERNEL_MODULES)
 TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.xiaomi
 TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
 
+# Recovery
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 100
+
 # Include proprietary files
 include vendor/xiaomi/mayfly/BoardConfigVendor.mk
