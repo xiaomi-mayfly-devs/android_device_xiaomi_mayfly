@@ -9,6 +9,7 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
+    FrameworksResMayfly \
     SettingsProviderResMayfly \
     WifiResMayfly
 
