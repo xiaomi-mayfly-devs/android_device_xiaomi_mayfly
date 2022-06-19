@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 PRODUCT_PACKAGES += \
     FrameworksResMayfly \
     SettingsProviderResMayfly \
+    SystemUIResMayfly \
     WifiResMayfly
 
 # Soong namespaces
