@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureResMayfly \
     FrameworksResMayfly \
     SettingsProviderResMayfly \
     SettingsResMayfly \
