@@ -9,5 +9,8 @@ DEVICE_PATH := device/xiaomi/mayfly
 # Inherit from sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Include proprietary files
 include vendor/xiaomi/mayfly/BoardConfigVendor.mk
