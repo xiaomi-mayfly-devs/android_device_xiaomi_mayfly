@@ -137,7 +137,7 @@ nt36xxx-i2c.ko
 nt36xxx-spi.ko
 goodix_core.ko
 pm8941-pwrkey.ko
-aw8697-haptic.ko
+qcom-hv-haptics.ko
 goodix_fod.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
