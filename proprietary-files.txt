@@ -108,6 +108,9 @@ vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 -vendor/lib/libagm.so
 -vendor/lib64/libagm.so
 
+# Audio firmware
+vendor/firmware/aw882xx_acf.bin
+
 # Batterysecret
 vendor/bin/batterysecret
 vendor/etc/init/hw/init.batterysecret.rc
@@ -1332,7 +1335,6 @@ vendor/firmware/93_notificationCleanall_P_RTP.bin
 vendor/firmware/96_nfcCard_P_RTP.bin
 vendor/firmware/98_nfcCardSlow_P_RTP.bin
 vendor/firmware/9_ringTone4_P_RTP.bin
-vendor/firmware/aw882xx_acf.bin
 
 # VPU firmware
 vendor/firmware/vpu20_4v.b00
