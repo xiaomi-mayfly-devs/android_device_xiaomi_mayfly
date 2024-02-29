@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from mayfly V14.0.11.0.TLTCNXM
+# All unpinned blobs below are extracted from mayfly OS1.0.3.0.ULTCNXM
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb
@@ -11,6 +11,8 @@ vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb
 vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp
 vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb
 vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp
+vendor/etc/acdbdata/diwali_parrot_qrd/QRD_diwali_parrot_acdb_cal.acdb
+vendor/etc/acdbdata/diwali_parrot_qrd/QRD_diwali_parrot_workspaceFileXml.qwsp
 vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb
 vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp
 vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb
@@ -20,6 +22,12 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.
 vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
+vendor/etc/acdbdata/ukee_cdp/CDP_ukee_acdb_cal.acdb
+vendor/etc/acdbdata/ukee_cdp/CDP_ukee_workspaceFileXml.qwsp
+vendor/etc/acdbdata/ukee_mtp/MTP_ukee_acdb_cal.acdb
+vendor/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp
+vendor/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb
+vendor/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin
@@ -60,7 +68,6 @@ vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libQnnHtpAltPrepV69Skel.so
-vendor/lib/rfsa/adsp/libQnnHtpV69Skel.so
 vendor/lib/rfsa/adsp/libSnpeHtpV68Skel.so
 vendor/lib/rfsa/adsp/libSnpeHtpV69Skel.so
 vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so
@@ -73,6 +80,7 @@ vendor/lib/rfsa/adsp/libcvpdsp_2_1.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
+vendor/lib/rfsa/adsp/libevadsp_3_0.so
 vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
@@ -88,7 +96,6 @@ vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
 vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so
 vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
 vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
@@ -117,7 +124,40 @@ vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/microphone_characteristics.xml
 vendor/etc/usecaseKvManager.xml
 
+# Audio firmware
+vendor/firmware/aw882xx_acf.bin
+
+# Audio graph manager
+-vendor/lib/libagm.so
+-vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
+-vendor/lib64/libagm.so
+-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/bin/agmcap
+vendor/bin/agmcompressplay
+vendor/bin/agmplay
+vendor/bin/cplay
+vendor/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service
+vendor/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc
+vendor/lib/libagm_compress_plugin.so
+vendor/lib/libagm_mixer_plugin.so
+vendor/lib/libagm_pcm_plugin.so
+vendor/lib/libagmclient.so
+vendor/lib/libagmdevice.so
+vendor/lib/libagmmixer.so
+vendor/lib/libmisight.so
+vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so
+vendor/lib64/libagm_compress_plugin.so
+vendor/lib64/libagm_mixer_plugin.so
+vendor/lib64/libagm_pcm_plugin.so
+vendor/lib64/libagmclient.so
+vendor/lib64/libagmdevice.so
+vendor/lib64/libagmmixer.so
+vendor/lib64/libmisight.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
+
 # Audio libraries
+-vendor/lib/libar-pal.so
+-vendor/lib64/libar-pal.so
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
@@ -128,7 +168,6 @@ vendor/lib/libadsprpc.so
 vendor/lib/libar-acdb.so
 vendor/lib/libar-gpr.so
 vendor/lib/libar-gsl.so
--vendor/lib/libar-pal.so
 vendor/lib/libats.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudiocloudctrl.so
@@ -158,7 +197,6 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
--vendor/lib64/libar-pal.so
 vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudiocloudctrl.so
@@ -182,40 +220,12 @@ vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
-# Audio graph manager
--vendor/lib/libagm.so
--vendor/lib64/libagm.so
-vendor/bin/agmcap
-vendor/bin/agmcompressplay
-vendor/bin/agmplay
-vendor/bin/cplay
-vendor/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service
-vendor/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc
-vendor/lib/libagm_compress_plugin.so
-vendor/lib/libagm_mixer_plugin.so
-vendor/lib/libagm_pcm_plugin.so
-vendor/lib/libagmclient.so
-vendor/lib/libagmdevice.so
-vendor/lib/libagmmixer.so
--vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/libagm_compress_plugin.so
-vendor/lib64/libagm_mixer_plugin.so
-vendor/lib64/libagm_pcm_plugin.so
-vendor/lib64/libagmclient.so
-vendor/lib64/libagmdevice.so
-vendor/lib64/libagmmixer.so
--vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-
-# Audio firmware
-vendor/firmware/aw882xx_acf.bin
-
 # Batterysecret
 vendor/bin/batterysecret
 vendor/etc/init/hw/init.batterysecret.rc
 
 # Camera
+vendor/bin/hw/android.hardware.camera.provider@2.7-virtual-camera-service
 vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service
 vendor/etc/camera/102_SummerDay.png
@@ -240,8 +250,10 @@ vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
 vendor/etc/camera/129_Vivid.png
 vendor/etc/camera/130_Natural.png
-vendor/etc/camera/131_Monochrom.png
-vendor/etc/camera/132_MonochromHighContrast.png
+vendor/etc/camera/131_Monochrome.png
+vendor/etc/camera/132_MonochromeHighContrast.png
+vendor/etc/camera/133_MonochromeBrown.png
+vendor/etc/camera/134_MonochromeBlue.png
 vendor/etc/camera/CFR_para_UW_V01.bin
 vendor/etc/camera/CFR_para_UW_V01_HD.bin
 vendor/etc/camera/CFR_para_UW_V01_SN.bin
@@ -617,8 +629,16 @@ vendor/etc/camera/xiaomi/thirdpartyrawsupernightjpeg.json
 vendor/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
 vendor/etc/camera/xiaomiSceneDetection.xml
+vendor/etc/init/android.hardware.camera.provider@2.7-virtual-camera-service.rc
 vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.quickcamera@1.0-service.xml
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-external-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-external-impl.so
+vendor/lib/camera.device@3.5-impl.so
+vendor/lib/camera.device@3.6-external-impl.so
 vendor/lib/camera/com.qti.tuned.default.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
@@ -666,6 +686,13 @@ vendor/lib/libsnpe_dsp_domains_v3.so
 vendor/lib/libsynx.so
 vendor/lib/libthreadutils.so
 vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
 vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/components/com.bots.node.vendortagwrite.so
 vendor/lib64/camera/components/com.mi.node.AIIE.so
@@ -856,6 +883,7 @@ vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so
 vendor/lib64/libAF.so
 vendor/lib64/libMiMotion.so
+vendor/lib64/libQnnHtpAltPrepV69Stub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSnpeHtpV69Stub.so
 vendor/lib64/libTrueSight.so
@@ -1129,14 +1157,20 @@ vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_mp_cmd_mode_dsc_dsi_panel.jso
 vendor/etc/mdss_dsi_l3s_42_02_0a_dsc_cmd_mi.xml
 
 # Fingerprint
+odm/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+odm/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 vendor/lib/hw/fingerprint.goodix_fod.so:vendor/lib/hw/fingerprint.goodix_fod.default.so
 vendor/lib/libgf_hal.so
-vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Graphics (Adreno firmware)
+vendor/firmware/a610_zap.b00
+vendor/firmware/a610_zap.b01
+vendor/firmware/a610_zap.b02
+vendor/firmware/a610_zap.elf
+vendor/firmware/a610_zap.mdt
+vendor/firmware/a630_sqe.fw
 vendor/firmware/a660_sqe.fw
 vendor/firmware/a662_gmu.bin
 vendor/firmware/a662_zap.b00
@@ -1212,8 +1246,9 @@ vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
-vendor/etc/sensors/config/sns_sar_algo_1.json
 vendor/etc/sensors/config/sns_sar_algo.json
+vendor/etc/sensors/config/sns_sar_algo_1.json
+vendor/etc/sensors/config/sns_screen_down.json
 vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/config/sns_tilt_sw_disabled.json
@@ -1236,6 +1271,7 @@ vendor/etc/thermal-class0.conf
 vendor/etc/thermal-dolbyvision.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-huanji.conf
+vendor/etc/thermal-l18a-map.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
@@ -1246,6 +1282,7 @@ vendor/etc/thermal-per-navigation.conf
 vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-phone.conf
+vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-sptm.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
