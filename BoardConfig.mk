@@ -17,6 +17,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel modules
 BOOT_KERNEL_MODULES += \
+    goodix_fod.ko \
     qcom_pm8008-regulator.ko \
     fts_touch_spi.ko \
     qcom-hv-haptics.ko
